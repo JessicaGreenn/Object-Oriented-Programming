@@ -1,0 +1,112 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Fri Sep  9 11:33:43 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5906
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :6
+gpg-agent[22027]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[22028]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:22007): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:22007): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /mnt/vocwork5/ddd_v1_w_ZVx_1360914/asn1092527_4/asn1092528_1/work/.cache/sessions/xfce4-session-ip-172-31-23-11:6, Does it exist? Permissions issue?
+
+(xfsettingsd:22039): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:22030): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Fri Sep  9 11:33:50 2022
+ Connections: accepted: 172.31.23.11::58676
+
+Fri Sep  9 11:33:51 2022
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Sep  9 11:41:58 2022
+ ComparingUpdateTracker: 273.082 Mpixels in / 19.7278 Mpixels out
+ ComparingUpdateTracker: (1:13.8425 ratio)
+
+Fri Sep  9 12:01:48 2022
+ Connections: closed: 172.31.23.11::58676 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 773
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2.988 krects, 25.0184 Mpixels
+ EncodeManager:            46.6875 KiB (1:2093.99 ratio)
+ EncodeManager:     Bitmap RLE: 69 rects, 35.221 kpixels
+ EncodeManager:                 2.67383 KiB (1:51.7575 ratio)
+ EncodeManager:     Indexed RLE: 2.036 krects, 2.38259 Mpixels
+ EncodeManager:                  281.784 KiB (1:33.1135 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 2.886 krects, 23.409 Mpixels
+ EncodeManager:                  10.0789 MiB (1:8.86322 ratio)
+ EncodeManager:   Total: 7.979 krects, 50.8453 Mpixels
+ EncodeManager:          10.4023 MiB (1:18.6546 ratio)
+ ComparingUpdateTracker: 262.648 Mpixels in / 35.6004 Mpixels out
+ ComparingUpdateTracker: (1:7.37769 ratio)
+
+Fri Sep  9 12:06:38 2022
+ Connections: accepted: 172.31.23.11::38552
+ SConnection: Client needs protocol version 3.8
+
+Fri Sep  9 12:06:39 2022
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Fri Sep  9 12:14:44 2022
+ Connections: closed: 172.31.23.11::38552 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 401
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 1.033 krects, 8.49931 Mpixels
+ EncodeManager:            16.1406 KiB (1:2057.7 ratio)
+ EncodeManager:     Bitmap RLE: 29 rects, 13.128 kpixels
+ EncodeManager:                 922 B (1:57.3319 ratio)
+ EncodeManager:     Indexed RLE: 831 rects, 907.812 kpixels
+ EncodeManager:                  123.275 KiB (1:28.845 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.136 krects, 9.56091 Mpixels
+ EncodeManager:                  3.68908 MiB (1:9.88999 ratio)
+ EncodeManager:   Total: 3.029 krects, 18.9812 Mpixels
+ EncodeManager:          3.82611 MiB (1:18.9336 ratio)
+ ComparingUpdateTracker: 299.625 Mpixels in / 18.5206 Mpixels out
+ ComparingUpdateTracker: (1:16.1779 ratio)
+gpg-agent[22028]: SIGTERM received - shutting down ...
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :6.0.
+xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :6.0.
+xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :6.0.
+xfsettingsd: Fatal IO error 4 (Interrupted system call) on X server :6.0.
+gpg-agent[22028]: gpg-agent (GnuPG) 2.1.11 stopped

@@ -1,0 +1,85 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Wed Oct 19 11:46:21 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5910
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :10
+gpg-agent[10280]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[10280]: directory '/mnt/vocwork5/ddd_v1_w_ZVx_1360914/asn1092545_12/asn1092546_1/work/.gnupg' created
+gpg-agent[10280]: directory '/mnt/vocwork5/ddd_v1_w_ZVx_1360914/asn1092545_12/asn1092546_1/work/.gnupg/private-keys-v1.d' created
+gpg-agent[10281]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:10265): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:10265): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /mnt/vocwork5/ddd_v1_w_ZVx_1360914/asn1092545_12/asn1092546_1/work/.cache/sessions/xfce4-session-ip-172-31-29-127:10, Does it exist? Permissions issue?
+
+(xfwm4:10283): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Wed Oct 19 11:46:43 2022
+ Connections: accepted: 172.31.29.127::40492
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Oct 19 11:46:44 2022
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+** (xfdesktop:10293): CRITICAL **: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+Wed Oct 19 12:26:38 2022
+ Connections: closed: 172.31.29.127::40492 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 42548
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 21.875 krects, 321.256 Mpixels
+ EncodeManager:            341.797 KiB (1:3672.24 ratio)
+ EncodeManager:     Bitmap RLE: 1.794 krects, 2.37466 Mpixels
+ EncodeManager:                 49.1221 KiB (1:189.264 ratio)
+ EncodeManager:     Indexed RLE: 42.733 krects, 1.87349 Gpixels
+ EncodeManager:                  25.0445 MiB (1:285.383 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 437.061 krects, 27.5745 Gpixels
+ EncodeManager:                  4.89652 GiB (1:20.9798 ratio)
+ EncodeManager:   Total: 503.463 krects, 29.7716 Gpixels
+ EncodeManager:          4.92135 GiB (1:22.5372 ratio)
+ ComparingUpdateTracker: 1.38749 Gpixels in / 1.03815 Gpixels out
+ ComparingUpdateTracker: (1:1.3365 ratio)
+gpg-agent[10281]: SIGTERM received - shutting down ...
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+(xfsettingsd:10290): GLib-GObject-WARNING **: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+gpg-agent[10281]: gpg-agent (GnuPG) 2.1.11 stopped
+xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :10.0.
+xfsettingsd: Fatal IO error 4 (Interrupted system call) on X server :10.0.
+xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :10.0.

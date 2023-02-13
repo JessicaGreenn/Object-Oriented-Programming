@@ -1,0 +1,141 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Sat Sep 10 23:04:24 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5903
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :3
+gpg-agent[27715]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[27716]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:27695): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:27695): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /mnt/vocwork5/ddd_v1_w_ZVx_1360914/asn1092527_4/asn1092528_1/work/.cache/sessions/xfce4-session-ip-172-31-23-183:3, Does it exist? Permissions issue?
+
+(xfwm4:27718): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Sat Sep 10 23:04:32 2022
+ Connections: accepted: 172.31.23.183::39704
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Sat Sep 10 23:04:33 2022
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Sat Sep 10 23:54:54 2022
+ Connections: closed: 172.31.23.183::39704 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 8632
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 132 rects, 3.35196 Mpixels
+ EncodeManager:             2.0625 KiB (1:6349.16 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 36.812 krects, 199.667 Mpixels
+ EncodeManager:            575.188 KiB (1:1356.74 ratio)
+ EncodeManager:     Bitmap RLE: 6.228 krects, 10.5877 Mpixels
+ EncodeManager:                 239.843 KiB (1:172.743 ratio)
+ EncodeManager:     Indexed RLE: 11.321 krects, 25.2225 Mpixels
+ EncodeManager:                  1.80631 MiB (1:53.3386 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 93.494 krects, 4.4575 Gpixels
+ EncodeManager:                  1.74404 GiB (1:9.52188 ratio)
+ EncodeManager:   Total: 147.987 krects, 4.69633 Gpixels
+ EncodeManager:          1.74658 GiB (1:10.0178 ratio)
+ ComparingUpdateTracker: 1.32097 Gpixels in / 2.94269 Gpixels out
+ ComparingUpdateTracker: (1:0.448898 ratio)
+
+Sun Sep 11 00:10:39 2022
+ Connections: accepted: 172.31.23.183::51036
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Sun Sep 11 00:17:21 2022
+ Connections: closed: 172.31.23.183::51036 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 1635
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 3 rects, 1.10162 Mpixels
+ EncodeManager:             48 B (1:91802.8 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 1.082 krects, 13.6772 Mpixels
+ EncodeManager:            16.9062 KiB (1:3160.93 ratio)
+ EncodeManager:     Bitmap RLE: 590 rects, 160.564 kpixels
+ EncodeManager:                 20.96 KiB (1:30.2537 ratio)
+ EncodeManager:     Indexed RLE: 4.422 krects, 14.3176 Mpixels
+ EncodeManager:                  4.56364 MiB (1:11.979 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 2.95 krects, 32.5044 Mpixels
+ EncodeManager:                  13.6936 MiB (1:9.05736 ratio)
+ EncodeManager:   Total: 9.047 krects, 61.7614 Mpixels
+ EncodeManager:          18.2943 MiB (1:12.8841 ratio)
+ ComparingUpdateTracker: 284.238 Mpixels in / 65.5825 Mpixels out
+ ComparingUpdateTracker: (1:4.33405 ratio)
+
+Sun Sep 11 00:17:31 2022
+ Connections: accepted: 172.31.23.183::52854
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Sun Sep 11 00:17:59 2022
+ Connections: closed: 172.31.23.183::52854 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 42
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 1 rects, 367.208 kpixels
+ EncodeManager:             16 B (1:91802.8 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 89 rects, 2.0564 Mpixels
+ EncodeManager:            1.39062 KiB (1:5777.15 ratio)
+ EncodeManager:     Bitmap RLE: 2 rects, 2.757 kpixels
+ EncodeManager:                 75 B (1:147.36 ratio)
+ EncodeManager:     Indexed RLE: 30 rects, 111.454 kpixels
+ EncodeManager:                  8.15527 KiB (1:53.4279 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 105 rects, 1.17204 Mpixels
+ EncodeManager:                  461.653 KiB (1:9.91976 ratio)
+ EncodeManager:   Total: 227 rects, 3.70985 Mpixels
+ EncodeManager:          471.288 KiB (1:30.7546 ratio)
+ ComparingUpdateTracker: 33.2513 Mpixels in / 2.57229 Mpixels out
+ ComparingUpdateTracker: (1:12.9268 ratio)
+gpg-agent[27716]: can't connect my own socket: IPC connect call failed
+gpg-agent[27716]: this process is useless - shutting down
+gpg-agent[27716]: gpg-agent (GnuPG) 2.1.11 stopped
+
+(xfsettingsd:27727): GLib-GObject-WARNING **: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :3.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfce4-panel: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.

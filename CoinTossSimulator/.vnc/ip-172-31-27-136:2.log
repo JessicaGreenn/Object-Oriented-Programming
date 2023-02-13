@@ -1,0 +1,87 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Tue Sep  6 23:13:07 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5902
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :2
+gpg-agent[18504]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[18504]: directory '/mnt/vocwork5/ddd_v1_w_ZVx_1360914/asn1092527_4/asn1092528_1/work/.gnupg' created
+gpg-agent[18504]: directory '/mnt/vocwork5/ddd_v1_w_ZVx_1360914/asn1092527_4/asn1092528_1/work/.gnupg/private-keys-v1.d' created
+gpg-agent[18505]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:18490): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:18490): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /mnt/vocwork5/ddd_v1_w_ZVx_1360914/asn1092527_4/asn1092528_1/work/.cache/sessions/xfce4-session-ip-172-31-27-136:2, Does it exist? Permissions issue?
+
+(xfsettingsd:18515): xfsettingsd-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:18507): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Tue Sep  6 23:13:29 2022
+ Connections: accepted: 172.31.27.136::41850
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Tue Sep  6 23:15:56 2022
+ Connections: closed: 172.31.27.136::41850 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 115
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 1 rects, 105.408 kpixels
+ EncodeManager:             16 B (1:26352.8 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 170 rects, 2.52527 Mpixels
+ EncodeManager:            2.65625 KiB (1:3714.38 ratio)
+ EncodeManager:     Bitmap RLE: 5 rects, 2.172 kpixels
+ EncodeManager:                 163 B (1:53.6687 ratio)
+ EncodeManager:     Indexed RLE: 74 rects, 247.809 kpixels
+ EncodeManager:                  20.5635 KiB (1:47.1161 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 160 rects, 1.23356 Mpixels
+ EncodeManager:                  439.177 KiB (1:10.9762 ratio)
+ EncodeManager:   Total: 410 rects, 4.11422 Mpixels
+ EncodeManager:          462.571 KiB (1:34.7535 ratio)
+ ComparingUpdateTracker: 104.698 Mpixels in / 2.66726 Mpixels out
+ ComparingUpdateTracker: (1:39.2529 ratio)
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+gpg-agent[18505]: can't connect my own socket: IPC connect call failed
+gpg-agent[18505]: this process is useless - shutting down
+gpg-agent[18505]: gpg-agent (GnuPG) 2.1.11 stopped

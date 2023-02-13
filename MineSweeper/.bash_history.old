@@ -1,0 +1,4 @@
+javac VisibleField*.java
+javac MineField.java
+javac MineField*.java
+java MineSweeperFixed

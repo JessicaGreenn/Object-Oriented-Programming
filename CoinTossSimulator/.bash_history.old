@@ -1,0 +1,14 @@
+javac Bar.java
+javac Coin*.java
+java CoinSimViewer
+javac Bar.java
+javac Coin*.java
+java CoinSimViewer
+javac Coin*.java
+javac Bar.java
+java CoinSimViewer
+javac Bar.java
+javac @coinSimViewer.list
+javac @CoinSimViewer.list
+java CoinSimViewer
+java CoinSimViewer
