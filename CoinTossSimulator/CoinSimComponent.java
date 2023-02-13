@@ -96,7 +96,7 @@ public class CoinSimComponent extends JComponent
       
       int applicationHeight2 = t1.getHeadTails();
       xDraw = getWidth() / 4 * 2 - BAR_WIDTH / 2;
-      int HeadTailPercent = (int)Math.round((double)(t1.getHeadTails() * 100) / t1.getNumTrials());
+      int HeadTailPercent = (int)Math.round(((double)(t1.getHeadTails()) / t1.getNumTrials()) * 100);
       String headTailLabel = "A Head and a Tail: " + t1.getHeadTails() +" (" + HeadTailPercent + "%)";
       
       // instantiate a Bar to draw 
@@ -107,7 +107,7 @@ public class CoinSimComponent extends JComponent
       
       int applicationHeight3 = t1.getTwoTails();
       xDraw = getWidth() / 4 * 3 - BAR_WIDTH / 2;
-      int twoTailsPercent = (int)Math.round((double)(t1.getTwoTails() * 100) / t1.getNumTrials());
+      int twoTailsPercent = (int)Math.round(((double)(t1.getTwoTails() * 100) / t1.getNumTrials()) * 100);
       String tailsLabel = "Two Tails: " + t1.getTwoTails() +" (" + twoTailsPercent + "%)";
       
       // instantiate a Bar to draw 
